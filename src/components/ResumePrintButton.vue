@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="info">//This button is for those who prefer to have a piece of paper to read</div>
-        <a href="/files/dsresume.pdf" target="_blank" @click="logResume">
+        <a href="/files/DSResume.pdf" target="_blank" @click="logResume">
             <div class="printbutton" :class="{ hackermode : hackermode }">
                 console.log(resume)
             </div>
