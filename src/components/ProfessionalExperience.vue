@@ -27,10 +27,10 @@ export default {
                         { id : 0, description : "Created a system from the ground up using Vue javascript framework that actively scans websites for key indicators of suspicious activity and automatically record findings for human review" },
                         { id : 1, description : "Designed and developed a system where results found by the computer can be reviewed by a human and voted on before being added to a growing database of over 60,000 sites" },
                         { id : 2, description : "Created plugins for both Chrome and Firefox that warn users when they enter a website that has been flagged as a scam in the database" },
-                        { id : 3, description : "Developed a website that gives access to information about the project - along with configuring the website hosting and MYSQL database that hosts all of the data" },
+                        { id : 3, description : "Developed a website that gives access to information about the project - along with configuring the website hosting and MYSQL database that hosts all the data" },
                         { id : 4, description : "Created the backend points that create access points to the various data points using Node.js" },
-                        { id : 5, description : "Activily monitor and troubleshoot all systems involved to ensure server health and acceptable user experiences" },
-                        { id : 6, description : "Ongoing continuation of improving data collection of scam sites to further increase effeciency and user experiences" },
+                        { id : 5, description : "Actively monitor and troubleshoot all systems involved to ensure server health and acceptable user experiences" },
+                        { id : 6, description : "Ongoing continuation of improving data collection of scam sites to further increase efficiency and user experiences" },
                     ]
                 },
                 {
@@ -42,10 +42,10 @@ export default {
                         { id : 0, description : "Redesigned their website and reconfigured the site to run smoother and faster with minimal extras" },
                         { id : 1, description : "Recreated an Admin Interface using Vue.js framework that allowed the quick sorting and finding of information pertaining to the over 35,000 customer records in the database" },
                         { id : 2, description : "Recreated the backend system to use Node.js instead of PHP" },
-                        { id : 3, description : "Updated their Geneolgy search abilities to correctly function while still using the PHP code it was written in based on the new backend system" },
+                        { id : 3, description : "Updated their Genealogy search abilities to correctly function while still using the PHP code it was written in based on the new backend system" },
                         { id : 4, description : "Developed a work order system in Vue.js that allows the grounds crew to provide near real time updates as jobs are completed" },
                         { id : 5, description : "Actively designing the system to track the space usage of the cemetery, with data to show where everyone is correctly position - complimented with GPS and pictures" },
-                        { id : 6, description : "Activily monitoring and troubleshoot all systems involved to ensure server health and acceptable user experiences" },
+                        { id : 6, description : "Actively monitoring and troubleshoot all systems involved to ensure server health and acceptable user experiences" },
                     ]
                 },
                 {
@@ -58,7 +58,8 @@ export default {
                         { id : 1, description : "Created a replacement MRP (Material Resource Planning) system that is currently still in use within the facility using C#" },
                         { id : 2, description : "Developed a visioning system that leveraged NodeJS, C# and MYSQL to test if the products being produced operated correctly" },
                         { id : 3, description : "Worked on several projects that related to smaller needs of the company with Angular 6/7, such as reports and production scheduling" },
-                        { id : 4, description : "Experience working with microcontrollers utilizing Node.JS" },
+                        { id : 4, description : "Experience working with microcontrollers utilizing Node.JS and C languages" },
+                        { id : 5, description : "Was involved in developing a web based MRP system utilizing Node.js and Vue.js frameworks" },
                     ]
                 },
             ]

@@ -8,24 +8,22 @@
             <li>dan@scamtdtf.com</li>
         </ul>
         <h2>{{hackermode ? "Hacker View" : "Professional View"}}</h2>
+        <div v-if="hackermode">(No hackery here, just a fun way to say 'dark' mode)</div>
         <label class="switch">
             <input type="checkbox" @change="hackermode = !hackermode">
             <span class="slider round"></span>
         </label>
-        <ProfessionalView v-if="!hackermode"/>
-        <HackerView v-if="hackermode"/>
+        <ProfessionalView :hackermode="hackermode"/>
     </div>
 </template>
 
 <script>
 import ProfessionalView from './views/ProfessionalView.vue'
-import HackerView from './views/HackerView.vue'
 
 export default {
   name: 'App',
   components: {
-    ProfessionalView,
-    HackerView
+    ProfessionalView
   },
   data : function(){
     return{

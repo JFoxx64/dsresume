@@ -1,9 +1,9 @@
 <template>
     <div>
         <div class="info">//This button is for those who prefer to have a piece of paper to read</div>
-        <a href="/danielstokesresume.pdf" target="_blank">
+        <a href="/files/dsresume.pdf" target="_blank" @click="logResume">
             <div class="printbutton" :class="{ hackermode : hackermode }">
-                Console.log(resume)
+                console.log(resume)
             </div>
         </a>
     </div>
@@ -14,6 +14,11 @@ export default {
     name: 'ResumePrintButton',
     props: {
         hackermode : Boolean
+    },
+    methods:{
+        logResume(){
+            console.log("The resume should have opened on a new tab!  It looks a lot better than it would in the console in the PDF or on the website.  You should be able to find it here: https://dstokes.us/files/dsresume.pdf")
+        }
     }
 }
 </script>

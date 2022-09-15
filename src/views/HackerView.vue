@@ -1,6 +1,5 @@
 <template>
     <div class="hackerview">
-        <div>(No hackery here, just a fun way to say 'dark' mode)</div>
         <ResumePrintButton :hackermode="hackermode"/>
         <SimpleIntro :hackermode="hackermode"/>
         <ProfessionalExperience :hackermode="hackermode"/>
